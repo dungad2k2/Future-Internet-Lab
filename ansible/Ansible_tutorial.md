@@ -2,6 +2,7 @@
 ## <b> Ansible </b> is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
 ## <b>Architecture of Ansible :</b>
 ![Alt text](image.png)
+
 ## <b>1.Installation</b>:
 Run step by step three commands below:
 <!-- Code Blocks -->
@@ -56,4 +57,5 @@ www[01:50].example.com
 ansilbe all -m ping 
 ```
 **Result:**
+
 ![Alt text](image-1.png)
