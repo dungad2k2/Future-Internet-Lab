@@ -21,6 +21,8 @@
       - For example: If the network interface's IP is **192.168.1.1./24** the route will be **192.168.1.1/32**         
 - A **route matches** a destination if the packet's destination IP address is the part of the network specified in the route.
     - For example: a packet to **192.168.1.60** is matched by a route to **192.168.1.0/24** but not by a route to **192.168.0.0/24**
+
+![Alt text](Routing-table-of-R3.png)
 ## Different between Router and Switch:
 - If a router receives a packet and it doesn't have a route that matches the packet's destination -> It will **drop** the packet.
 
