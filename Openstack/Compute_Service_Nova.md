@@ -1,5 +1,5 @@
 # **Nova** (Compute Service):
-## Introduction about Nova:
+## Giới thiệu về Nova:
 - OpenStack Compute is used to host and manage cloud computing systems and is a major part of an Infrastructure-as-a-Service(IaaS) system.
 - OpenStack Compute interacts with OpenStack Identity for authentication. OpenStack Image service for disk and server images and OpenStack Dashboard for the user and administrative interface.
 ## Components of OpenStack Compute:
@@ -23,3 +23,5 @@
 ### SQL database:
 - Stores most build-time and run-time states for a cloud infrastructure.
 - Supports any database that SQLAlchemy supports (SQlite3, MySQL, MariaDB,...).
+### Workflow of Compute Service:
+![Alt text](compute-architecture.png)
